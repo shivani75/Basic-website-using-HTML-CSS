@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Delius+Unicase:wght@400;700&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.n-proj {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: inter, sans-serif;
+}
+/* .navbar {
+  padding: 10px 16px;
+} */
+.navbar-brand,
+.fa-bars {
+  font-size: 32px;
+  /* font-family: "Concert One", sans-serif; */
+  font-family: "Delius Unicase", cursive;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-style: normal;
+}
+.nav-link {
+  font-size: 18px;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  font-size: 0.9rem;
+}
+.d-flex {
+  position: relative;
+}
+.btn {
+  position: absolute;
+  float: right;
+  right: 9px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.btn:hover {
+  color: grey !important;
+  background-color: transparent !important;
+}
+:not(.btn-check) + .btn:active {
+  background-color: transparent !important;
+}
+.fa-bars {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.sec {
+  height: 100%;
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  width: 100%;
+  padding: 35px;
+}
+.img-content {
+  width: 22%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+}
+.img {
+  height: auto;
+  width: 100%;
+}
+.textbar {
+  width: 60%;
+  background-color: #e5d8ff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  height: 100%;
+  margin: 20px;
+  padding: 35px;
+}
+.textbar p {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.598);
+  font-weight: 400;
+  line-height: 36px;
+}
+.icons-box {
+    position: sticky;
+    top: 85px;
+    float: right;
+    z-index: 99;
+    margin-top: -277px;
+    right: 64px;
+
+}
+.icons img {
+  height: 50px;
+  width: auto;
+  border: 3px solid #000;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 10px;
+  display: block;
+}
+.calc {
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  width: 20.15%;
+  height: auto;
+  padding: 18px;
+  border-radius: 12px;
+  margin: 10px;
+}
+.items p {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.item-1,
+.cell-1 {
+  background-color: #929dff;
+}
+.item-2 {
+  background-color: #704aeb;
+}
+.item-3 {
+  background-color: #d288ff;
+}
+.item-4 {
+  background-color: #000000;
+}
+.form-cell {
+  /* width: 80%; */
+  margin-top: 100px;
+  padding: 0px 115px;
+  margin-bottom: 40px;
+
+}
+.form-content {
+  border-radius: 12px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-cell {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-cell button {
+  border-radius: 12px;
+  padding: 25px;
+  margin: 17px;
+  text-align: center;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.c-cell button:first-of-type {
+  background: #bce0f6 !important;
+  color: black;
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+  border: none;
+  font-weight: 600;
+  
+}
+.form {
+  height: 100%;
+  margin: 10px;
+  width: 65%;
+  background-color: #ffffff;
+  height: 45vh;
+  padding: 37px 72px;
+  border-radius: 12px;
+  margin: 27px auto 27px auto;
+  position: relative;
+}
+.next {
+  position: absolute;
+  float: right;
+  right: 32px;
+  bottom: 20px;
+  padding: 6px 31px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.p-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000;
+}
+.info {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+.info span {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+.help{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    float: right;
+    right: 127px;
+    bottom: 17px;
+}
+.help img{
+    height: 100%;
+    width: fit-content;
+    
+}
